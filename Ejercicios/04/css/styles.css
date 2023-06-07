@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(245, 213, 154);
+}
+
+h1 {
+    background-color: orange;
+}
+
+h2{
+    color: aquamarine;
+    font-style: italic;
+}
+
+span {
+    color: brown;
+}
+
+h3 {
+    color: blue !important;
+}
+
+p{
+    font-style: italic;
+}
