@@ -1,0 +1,23 @@
+table {
+    border: 2px solid blue;
+    padding: 4px;
+    box-shadow: inset -2px -2px 0 2px #888;
+    border-spacing: 0;
+}
+
+tr, th, td{
+    border: 1px solid aqua;
+}
+
+th{
+    background-color: green;
+}
+
+#tr-1, #tr-3{
+    background-color: rgb(102, 255, 47);
+}
+
+#tr-2{
+    background-color: rgb(231, 255, 47);
+}
+
