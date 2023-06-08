@@ -1,0 +1,44 @@
+body{
+    background-image: url(../img/ac.jpg);
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    border: 2px red solid;
+    background-color: aliceblue;
+    margin: 20px;
+    float: left;
+}
+
+.box-1{
+    background-image: url(../img/back_mantel.jpg);
+}
+
+.box-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-box-2{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/back_mantel.jpg);
+    width: 150px;
+    height: 150px;
+}
+
+.box-3 img{
+    width: 100%;
+}
+
+.box-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-4 img{
+    width: 75%;
+}

@@ -1,0 +1,27 @@
+body {
+    background-image: url(../img/pinguinos.webp);
+    width: 100%;
+    display: inline-block;
+}
+
+table {
+    width: 50%;
+    border: 2px solid grey;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+th, td {
+    text-align: center;
+    border: 2px solid grey;
+}
+
+th {
+    background-color: aliceblue;
+}
+
+td {
+    background-color: yellow;
+}

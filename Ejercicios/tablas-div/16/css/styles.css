@@ -1,0 +1,26 @@
+table {
+    border: 5px outset;
+    text-align: center;
+    border-spacing: 0;
+}
+
+tr, td {
+    border: inset gray;
+    color: red;
+}
+
+.type-1{
+    background-color: green;
+}
+
+.type-2{
+    background-color: orange;
+}
+
+.type-3{
+    background-color: yellow;
+}
+
+.type-4{
+    background-image: url(../img/huellas-perro.jpg);
+} 
