@@ -33,6 +33,7 @@ nav ul{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
 }
 
 .container{
@@ -44,3 +45,21 @@ nav ul{
     border: 1px solid grey;
     padding: 15px;
 }
+
+
+li{
+    width: 100%;
+    padding: 10px;
+    margin: 2px;
+    list-style: none;
+    text-align: center;
+}
+
+.home-link{
+    background-color: orange;
+}
+
+.default-link{
+    background-color: greenyellow;
+}
+
