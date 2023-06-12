@@ -1,0 +1,127 @@
+body { 
+    background-image: url(../img/daily-image.jpg);
+    margin: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.header { 
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bing-logo {
+    margin: 50px;
+    width: 160px;
+    height: 90px;
+}
+
+.header-left {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-right {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-link { 
+    margin: 10px;
+}
+
+.main{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-up {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+input {
+    width: 500px;
+}
+
+.main-up-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-down {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main-down-scroll { 
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+}
+.main-down-cover { 
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: grey;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-link {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a {
+    color: rgb(186, 183, 183);
+}
+
+.header a{
+    color: white;
+}
+
+.cover-image {
+    border-radius: 10px;
+    width: 180px;
+    height: 120px;
+}
+
+.main-down-cover-link {
+    margin: 10px;
+}

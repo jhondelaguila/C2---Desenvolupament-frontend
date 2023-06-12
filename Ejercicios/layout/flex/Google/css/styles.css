@@ -72,6 +72,10 @@ body {
     height: 15vh;
 }
 
+.footer-up{
+    padding: 10px;
+}
+
 .footer-down {
     display: flex;
     justify-content: space-between;
