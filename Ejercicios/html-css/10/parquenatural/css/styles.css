@@ -52,17 +52,37 @@ li{
     margin: 2px;
     list-style: none;
     text-align: center;
+    border: 1px solid grey;
 }
 
 .home-link{
-    background-color: orange;
+    background: linear-gradient( white, orange);
 }
 
 .default-link{
-    background-color: greenyellow;
+    background: linear-gradient( white, greenyellow);
+}
+
+.home-link a {
+    font: bold;
+    color: black;
+}
+
+.default-link a {
+    color: grey;
 }
 
 a {
     text-decoration: none;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    text-align: center;
 }
 
