@@ -1,12 +1,10 @@
 table {
-    border: 2px solid blue;
-    padding: 4px;
-    box-shadow: inset -2px -2px 0 2px #888;
+    border: 5px outset;
     border-spacing: 0;
 }
 
 tr, th, td{
-    border: 1px solid aqua;
+    border: inset aqua;
 }
 
 th{
@@ -19,5 +17,9 @@ th{
 
 #tr-1, #tr-2{
     background-color: rgb(231, 255, 47);
+}
+
+.cost {
+    text-align: center;
 }
 
