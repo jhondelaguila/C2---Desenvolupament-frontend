@@ -19,6 +19,7 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .inner-box-2{
@@ -41,4 +42,40 @@ div{
 
 .box-4 img{
     width: 75%;
+}
+
+.box-5 img {
+    width: 200px;
+    height: 200px;
+}
+
+.box-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-6 img {
+    width: 150px;
+    height: 150px;
+}
+
+.box-7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-7 img {
+    width: 100%;
+}
+
+.box-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-8 img {
+    height: 100%;
 }
