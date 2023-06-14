@@ -1,12 +1,12 @@
 table {
     width: 100%;
-    border: 3px solid grey;
+    border: 5px outset;
     border-spacing: 0;
 }
 
 td {
     text-align: center;
-    border: 2px solid grey;
+    border: inset gray;
 }
 
 .celda-1 { 
