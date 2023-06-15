@@ -5,7 +5,7 @@ body{
 div{
     width: 200px;
     height: 200px;
-    border: 2px red solid;
+    border: 1px black solid;
     background-color: aliceblue;
     margin: 20px;
     float: left;
@@ -78,4 +78,24 @@ div{
 
 .box-8 img {
     height: 100%;
+}
+
+.box-9 {
+    background: linear-gradient( green, greenyellow);
+    transform: rotate(90deg);
+}
+
+.box-10 {
+    background: linear-gradient(rgb(255, 226, 167), rgb(224, 87, 13), rgb(150, 52, 3));
+}
+
+.box-11 {
+    background: linear-gradient(white, greenyellow, green);
+    transform: rotate(360deg);
+}
+
+.box-12 {
+    background: linear-gradient(rgba(255,255,255,0), rgba(141, 255, 47,0.5), green);
+    transform: rotate(360deg);
+
 }
