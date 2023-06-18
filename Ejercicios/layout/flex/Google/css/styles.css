@@ -17,6 +17,10 @@ body {
     height: 10vh;
 }
 
+.header a {
+    color: black;
+}
+
 .header-left {
     display: flex;
     justify-content: start;
@@ -33,6 +37,8 @@ body {
     height: 75vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-up {
@@ -68,8 +74,12 @@ body {
 }
 
 .footer { 
-    padding: 6px;
+    background-color: rgb(220, 220, 220);
     height: 15vh;
+}
+
+.footer a {
+    color: grey;
 }
 
 .footer-up{
@@ -118,8 +128,42 @@ a {
     margin: 20px;
 }
 
+.main-up-search-border {
+    width: 500px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-up-search-search-icon {
+    color: grey;
+    margin-left: 10px;
+}
+
+.main-up-search-input {
+    outline: none;
+    border: none;
+    width: 500px;
+    height: 40px;
+}
+
+.main-up-search-mic-icon {
+    margin-right: 10px;
+}
+
 .main-down-up-button {
-    padding: 4px;
+    margin: 4px;
+}
+
+button {
+    color: grey;
+    border: none;
+    height: 30px;
+    width: 150px;
+    border-radius: 4px;
 }
 
 .google-img {

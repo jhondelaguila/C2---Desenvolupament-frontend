@@ -14,10 +14,20 @@ body {
     justify-content: space-between;
 }
 
-.bing-logo {
-    margin: 50px;
-    width: 160px;
-    height: 90px;
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo a {
+    margin: 5px;
+}
+
+.microsoft-logo {
+    margin: 5px;
+    width: 25px;
+    height: 25px;
 }
 
 .header-left {
@@ -35,7 +45,30 @@ body {
 }
 
 .header-link { 
+    width: 100px;
     margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-link .iniciar-sesion {
+    margin: 5px;
+}
+
+.header-link a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-link .material-symbols-outlined {
+    margin: 5px;
+}
+
+.material-symbols-outlined {
+    color: white;
 }
 
 .main{
@@ -47,13 +80,28 @@ body {
 }
 
 .main-up {
+    background-color: white;
+    box-shadow: 2px 2px 2px rgba(173, 172, 172,0.5);
+    border: none;
+    border-radius: 10px;
     margin-top: 30px;
     margin-bottom: 30px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 input {
+    outline: none;
+    border: none;
     width: 500px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.main-up-button .material-symbols-outlined {
+    margin: 4px;
+    color: rgb(6, 123, 123);
 }
 
 .main-up-button {
@@ -68,14 +116,67 @@ input {
 }
 
 .main-down-scroll { 
-    width: 90vw;
+    width: 90vw;    
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
+
+.main-down-scroll-down {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    padding: 5px;
+    margin: 2px;
+}
+
+.main-down-scroll-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-down-scroll-buttons-arrow {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    padding: 5px;
+    margin: 2px;
+}
+
+.main-down-scroll-buttons-location-info {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    padding: 5px;
+    margin: 2px;
+}
+
 .main-down-cover { 
     width: 90vw;
     display: flex;
     justify-content: center;
+    margin-left: 20px;
+
+}
+
+.main-down-cover-link a {
+    color: white;
+    position: relative;
+    display: inline-block;
+}
+
+.text-on-image-url {
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
+.text-on-image {
+    position: absolute;
+    top: 25px;
+    left: 10px;
 }
 
 .footer {
@@ -87,6 +188,7 @@ input {
 }
 
 .footer-left {
+    margin-left: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,6 +198,7 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 35px;
 }
 
 .footer-link {
@@ -118,8 +221,8 @@ a {
 
 .cover-image {
     border-radius: 10px;
-    width: 180px;
-    height: 120px;
+    width: 250px;
+    height: 160px;
 }
 
 .main-down-cover-link {

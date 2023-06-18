@@ -5,13 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Document</title>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <div class="header-left">
-                <div class="header-link"><img src="./img/Bing-logo.png" alt="" class="bing-logo"></div>
+                <div class="header-link">
+                    <div class="logo">
+                        <a href="#"><img src="./img/microsoft.avif" alt="" class="microsoft-logo"></a>
+                        <a href="#">Microsoft</a>
+                        <a href="#">Bing</a>
+                    </div>
+                </div>
                 <div class="header-link"><a href="#">Imágenes</a></div>
                 <div class="header-link"><a href="#">Vídeos</a></div>
                 <div class="header-link"><a href="#">· · ·</a></div>
@@ -19,40 +26,114 @@
             <div class="header-right">
                 <div class="header-link"><a href="#">català</a></div>
                 <div class="header-link"><a href="#">English</a></div>
-                <div class="header-link"><a href="#">Iniciar sesión</a></div>
-                <div class="header-link">Icon</div>
-                <div class="header-link"><a href="#">Rewards</a></div>
-                <div class="header-link">Icon</div>
-                <div class="header-link">Icon</div>
+                <div class="header-link">
+                    <a href="#" class="iniciar-sesion">
+                        Iniciar
+                    </a>
+                    <a href="#" class="iniciar-sesion">sesión</a>
+                    <span class="material-symbols-outlined">
+                        account_circle
+                    </span>
+                </div>
+                <div class="header-link">
+                    <a href="#">
+                        Rewards
+                        <span class="material-symbols-outlined">
+                            trophy
+                        </span>
+                    </a>
+                </div>
+                <div class="header-link">
+                    <span class="material-symbols-outlined">
+                        menu
+                    </span>
+                </div>
             </div>
         </div>
         <div class="main">
             <div class="main-up">
                 <div class="main-up-search"><input type="search"></div>
                 <div class="main-up-button">
-                    <div class="main-up-button-">Micro</div>
-                    <div class="main-up-button-">QR</div>
-                    <div class="main-up-button-">Keyboard</div>
-                    <div class="main-up-button-">Search</div>
+                    <a href="#" class="main-up-button-search-right">
+                        <span class="material-symbols-outlined">
+                            mic
+                        </span></a>
+                    <a href="#" class="main-up-button-search-right">
+                        <span class="material-symbols-outlined">
+                            crop_free
+                        </span>
+                    </a>
+                    <a href="#" class="main-up-button-search-right">
+                        <span class="material-symbols-outlined">
+                            keyboard
+                        </span>
+                    </a>
+                    <a href="#" class="main-up-button-search-right">
+                        <span class="material-symbols-outlined">
+                            search
+                        </span>
+                    </a>
                 </div>
             </div>
             <div class="main-down">
                 <div class="main-down-scroll">
-                    <div class="main-down-scroll-down"><a href="#">Icon</a></div>
+                    <div class="main-down-scroll-down"><a href="#">
+                        <span class="material-symbols-outlined">
+                            expand_more
+                        </span>
+                    </a></div>
                     <div class="main-down-scroll-buttons">
-                        <a href="#" class="main-down-scroll-buttons-link">Icon</a>
-                        <a href="#" class="main-down-scroll-buttons-link">Icon</a>
-                        <a href="#" class="main-down-scroll-buttons-link">Icon</a>
-                        <a href="#" class="main-down-scroll-buttons-link">Icon</a>
+                        <div class="main-down-scroll-buttons-location-info">
+                            <a href="#" class="main-down-scroll-buttons-link">
+                                <span class="material-symbols-outlined">
+                                    location_on
+                                </span>
+                            </a>
+                            <a href="#" class="main-down-scroll-buttons-link">Info</a>
+                        </div>
+                        <a href="#" class="main-down-scroll-buttons-arrow">
+                            <span class="material-symbols-outlined">
+                                chevron_left
+                            </span>
+                        </a>
+                        <a href="#" class="main-down-scroll-buttons-arrow">
+                            <span class="material-symbols-outlined">
+                                chevron_right
+                            </span>
+                        </a>
                     </div>
                 </div>
                 <div class="main-down-cover">
-                    <div class="main-down-cover-link"><a href="#"><img src="./img/fondo-noticia.avif" class="cover-image" alt=""></a></div>
-                    <div class="main-down-cover-link"><a href="#"><img src="./img/fondo-noticia.avif" class="cover-image" alt=""></a></div>
-                    <div class="main-down-cover-link"><a href="#"><img src="./img/fondo-noticia.avif" class="cover-image" alt=""></a></div>
-                    <div class="main-down-cover-link"><a href="#"><img src="./img/fondo-noticia.avif" class="cover-image" alt=""></a></div>
-                    <div class="main-down-cover-link"><a href="#"><img src="./img/fondo-noticia.avif" class="cover-image" alt=""></a></div>
-                    <div class="main-down-cover-link"><a href="#"><img src="./img/fondo-noticia.avif" class="cover-image" alt=""></a></div>
+                    <div class="main-down-cover-link">
+                        <a href="#"><img src="./img/fondo-noticia.avif" class="cover-image" alt="">
+                            <p class="text-on-image-url">eldiario.es</p>
+                            <p class="text-on-image">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </a>
+                    </div>
+                    <div class="main-down-cover-link">
+                        <a href="#"><img src="./img/fondo-noticia.avif" class="cover-image" alt="">
+                            <p class="text-on-image-url">eldiario.es</p>
+                            <p class="text-on-image">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </a>
+                    </div>
+                    <div class="main-down-cover-link">
+                        <a href="#"><img src="./img/fondo-noticia.avif" class="cover-image" alt="">
+                            <p class="text-on-image-url">eldiario.es</p>
+                            <p class="text-on-image">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </a>
+                    </div>
+                    <div class="main-down-cover-link">
+                        <a href="#"><img src="./img/fondo-noticia.avif" class="cover-image" alt="">
+                            <p class="text-on-image-url">eldiario.es</p>
+                            <p class="text-on-image">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </a>
+                    </div>
+                    <div class="main-down-cover-link">
+                        <a href="#"><img src="./img/fondo-noticia.avif" class="cover-image" alt="">
+                            <p class="text-on-image-url">eldiario.es</p>
+                            <p class="text-on-image">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
